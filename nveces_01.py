@@ -1,10 +1,13 @@
 # coding: utf-8
 
 x= input("Introduce un numero:")
-i = 0
+suma = 0
+count = 0
 
-while (i<x) :
-	i+=1
-	print (input("Introduce un numero:"))
- 
-	
+while (count<x) :
+	aux= (input("Introduce un numero:"))
+
+	if (aux>0):
+		count+=1
+		suma=suma+aux
+print suma
